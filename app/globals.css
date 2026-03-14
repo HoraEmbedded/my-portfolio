@@ -51,7 +51,7 @@ body {
   background-image: 
     linear-gradient(var(--grid-color) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-  background-size: 48px 48px;
+  background-size: 38px 38px;
 }
 
 ::-webkit-scrollbar { width: 5px; }
@@ -69,7 +69,7 @@ body {
 }
 
 .section-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: 700;
   line-height: 1.15;
   color: var(--text);
@@ -91,7 +91,7 @@ body {
 .btn-primary {
   background-color: var(--accent);
   color: #07070E;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -111,7 +111,7 @@ body {
 .btn-outline {
   background-color: transparent;
   color: var(--text);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.04em;

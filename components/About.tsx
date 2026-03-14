@@ -15,7 +15,7 @@ export default function About() {
           </p>
           <h2
             className="section-title"
-            style={{ fontSize: 'clamp(30px, 4vw, 48px)', maxWidth: '600px' }}
+            style={{ fontSize: 'clamp(20px, 3vw, 38px)', maxWidth: '600px' }}
           >
             The engineer behind the system
           </h2>
@@ -118,7 +118,7 @@ export default function About() {
                   marginBottom: '6px',
                 }}
               >
-                Engineering Student — Year 3/5
+                Engineering Student — Year 4/5
               </div>
               <div style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
                 ENSA Tangier, Morocco

@@ -6,10 +6,8 @@ import { Download, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 // The words that cycle in the hero title
 const roles = [
   'Automation Engineer',
-  'Embedded Systems Developer',
   'Industrial IoT Builder',
   'Control Systems Engineer',
-  'AIoT Industrial Engineer',
 ];
 
 // Circuit background SVG nodes
@@ -192,16 +190,16 @@ export default function Hero() {
             style={{
               fontFamily: "'Space Mono', monospace",
               fontWeight: 800,
-              fontSize: 'clamp(36px, 6vw, 72px)',
+              fontSize: 'clamp(16px, 3vw, 52px)',
               lineHeight: 1.05,
               color: 'var(--text)',
               marginBottom: '16px',
               letterSpacing: '-0.02em',
             }}
           >
-            Horacia
+            Houénoumè Horacia Gloriéta
             <br />
-            <span style={{ color: 'var(--accent)' }}>Azonhoumon</span>
+            <span style={{ color: 'var(--accent)' }}>AZONHOUMON</span>
           </h1>
 
           {/* Typewriter role */}
@@ -269,9 +267,9 @@ export default function Hero() {
             </span>
             <div style={{ width: '30px', height: '1px', background: 'var(--border)' }} />
             {[
-              { href: 'https://github.com/horaembedded', icon: <Github size={18} />, label: 'GitHub' },
+              { href: 'https://github.com/HoraEmbedded', icon: <Github size={18} />, label: 'GitHub' },
               { href: 'https://linkedin.com/in/horacia-azonhoumon', icon: <Linkedin size={18} />, label: 'LinkedIn' },
-              { href: 'mailto:horacia.azonhoumon@gmail.com', icon: <Mail size={18} />, label: 'Email' },
+              { href: 'mailto:azonhoumonhoracia@gmail.com', icon: <Mail size={18} />, label: 'Email' },
             ].map((social) => (
               <a
                 key={social.label}

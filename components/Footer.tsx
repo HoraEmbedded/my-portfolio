@@ -51,9 +51,9 @@ export default function Footer() {
           {/* Social icons */}
           <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
             {[
-              { href: 'https://github.com/horaembedded', icon: <Github size={17} />, label: 'GitHub' },
+              { href: 'https://github.com/HoraEmbedded', icon: <Github size={17} />, label: 'GitHub' },
               { href: 'https://linkedin.com/in/horacia-azonhoumon', icon: <Linkedin size={17} />, label: 'LinkedIn' },
-              { href: 'mailto:horacia.azonhoumon@gmail.com', icon: <Mail size={17} />, label: 'Email' },
+              { href: 'mailto:azonhoumonhoracia@gmail.com', icon: <Mail size={17} />, label: 'Email' },
             ].map((s) => (
               <a
                 key={s.label}

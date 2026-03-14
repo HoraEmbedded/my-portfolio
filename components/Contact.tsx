@@ -24,7 +24,7 @@ export default function Contact() {
     {
       label: 'GitHub',
       handle: '@HoraEmbedded',
-      href: 'https://github.com/horaembedded',
+      href: 'https://github.com/HoraEmbedded',
       icon: <Github size={20} />,
       desc: 'All open source projects',
     },
