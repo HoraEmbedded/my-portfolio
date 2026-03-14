@@ -66,7 +66,7 @@ export default function Skills() {
 
               <h3
                 style={{
-                  fontFamily: "'Syne', sans-serif",
+                  fontFamily: "'Space Mono', monospace",
                   fontWeight: 700,
                   fontSize: '18px',
                   color: 'var(--text)',
@@ -102,7 +102,7 @@ export default function Skills() {
         <div>
           <h3
             style={{
-              fontFamily: "'Syne', sans-serif",
+              fontFamily: "'Space Mono', monospace",
               fontWeight: 600,
               fontSize: '22px',
               color: 'var(--text)',

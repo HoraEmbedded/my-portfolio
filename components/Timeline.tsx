@@ -112,7 +112,7 @@ export default function Timeline() {
 
                   {/* Title */}
                   <h3 style={{
-                    fontFamily: "'Syne', sans-serif", fontWeight: 600,
+                    fontFamily: "'Space Mono', monospace", fontWeight: 600,
                     fontSize: entry.highlight ? '17px' : '15px',
                     color: 'var(--text)', marginBottom: '4px', lineHeight: 1.3,
                   }}>

@@ -74,7 +74,7 @@ export default function PersonalTouch() {
                 {item.icon}
               </div>
               <h3 style={{
-                fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '16px',
+                fontFamily: "'Space Mono', monospace", fontWeight: 600, fontSize: '16px',
                 color: 'var(--text)', marginBottom: '10px',
               }}>
                 {item.title}
@@ -101,7 +101,7 @@ export default function PersonalTouch() {
           }} />
 
           <p style={{
-            fontFamily: "'Syne', sans-serif", fontWeight: 600,
+            fontFamily: "'Space Mono', monospace", fontWeight: 600,
             fontSize: 'clamp(18px, 3vw, 26px)', color: 'var(--text)',
             lineHeight: 1.5, maxWidth: '700px', margin: '0 auto 20px',
           }}>

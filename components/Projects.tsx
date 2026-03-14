@@ -152,7 +152,7 @@ export default function Projects() {
                   {/* Title */}
                   <h3
                     style={{
-                      fontFamily: "'Syne', sans-serif",
+                      fontFamily: "'Space Mono', monospace",
                       fontWeight: 700,
                       fontSize: '18px',
                       color: 'var(--text)',

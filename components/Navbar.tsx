@@ -60,7 +60,7 @@ export default function Navbar() {
         <a href="#" style={{ textDecoration: 'none' }}>
           <span
             style={{
-              fontFamily: "'Syne', sans-serif",
+              fontFamily: "'Space Mono', monospace",
               fontWeight: 800,
               fontSize: '18px',
               color: 'var(--accent)',

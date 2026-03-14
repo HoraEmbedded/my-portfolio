@@ -69,7 +69,7 @@ export default function FutureVision() {
               {/* Number */}
               <div
                 style={{
-                  fontFamily: "'Syne', sans-serif",
+                  fontFamily: "'Space Mono', monospace",
                   fontWeight: 800,
                   fontSize: '48px',
                   color: 'var(--border)',
@@ -83,7 +83,7 @@ export default function FutureVision() {
 
               <h3
                 style={{
-                  fontFamily: "'Syne', sans-serif",
+                  fontFamily: "'Space Mono', monospace",
                   fontWeight: 700,
                   fontSize: '20px',
                   color: 'var(--text)',
@@ -137,7 +137,7 @@ export default function FutureVision() {
         >
           <h3
             style={{
-              fontFamily: "'Syne', sans-serif",
+              fontFamily: "'Space Mono', monospace",
               fontWeight: 700,
               fontSize: '22px',
               color: 'var(--text)',
@@ -185,7 +185,7 @@ export default function FutureVision() {
                 </div>
                 <div
                   style={{
-                    fontFamily: "'Syne', sans-serif",
+                    fontFamily: "'Space Mono', monospace",
                     fontWeight: 600,
                     fontSize: '16px',
                     color: 'var(--text)',

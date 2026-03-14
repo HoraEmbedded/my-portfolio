@@ -23,7 +23,7 @@ export default function Contact() {
   const socials = [
     {
       label: 'GitHub',
-      handle: '@horaembedded',
+      handle: '@HoraEmbedded',
       href: 'https://github.com/horaembedded',
       icon: <Github size={20} />,
       desc: 'All open source projects',
@@ -37,8 +37,8 @@ export default function Contact() {
     },
     {
       label: 'Email',
-      handle: 'horacia.azonhoumon@gmail.com',
-      href: 'mailto:horacia.azonhoumon@gmail.com',
+      handle: 'azonhoumonhoracia@gmail.com',
+      href: 'mailto:azonhoumonhoracia@gmail.com',
       icon: <Mail size={20} />,
       desc: 'Best for opportunities',
     },
@@ -119,7 +119,7 @@ export default function Contact() {
                 >
                   <span style={{ color: 'var(--accent)', display: 'flex', flexShrink: 0 }}>{s.icon}</span>
                   <div>
-                    <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '14px', color: 'var(--text)', marginBottom: '2px' }}>
+                    <div style={{ fontFamily: "'Space Mono', monospace", fontWeight: 600, fontSize: '14px', color: 'var(--text)', marginBottom: '2px' }}>
                       {s.handle}
                     </div>
                     <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{s.desc}</div>

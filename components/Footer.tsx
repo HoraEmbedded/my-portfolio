@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{
-              fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: '18px',
+              fontFamily: "'Space Mono', monospace", fontWeight: 800, fontSize: '18px',
               color: 'var(--accent)', marginBottom: '6px',
             }}>
               HoraEmbedded

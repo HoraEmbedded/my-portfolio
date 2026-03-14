@@ -25,7 +25,7 @@ export default function Blog() {
           <h3
             key={i}
             style={{
-              fontFamily: "'Syne', sans-serif",
+              fontFamily: "'Space Mono', monospace",
               fontWeight: 700,
               fontSize: '18px',
               color: 'var(--text)',
@@ -115,7 +115,7 @@ export default function Blog() {
                   </div>
 
                   <h3 style={{
-                    fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: '17px',
+                    fontFamily: "'Space Mono', monospace", fontWeight: 700, fontSize: '17px',
                     color: 'var(--text)', lineHeight: 1.35, marginBottom: '12px',
                   }}>
                     {post.title}
@@ -159,7 +159,7 @@ export default function Blog() {
           display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px',
         }}>
           <div>
-            <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '16px', color: 'var(--text)', marginBottom: '4px' }}>
+            <div style={{ fontFamily: "'Space Mono', monospace", fontWeight: 600, fontSize: '16px', color: 'var(--text)', marginBottom: '4px' }}>
               More articles coming soon
             </div>
             <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
@@ -205,7 +205,7 @@ export default function Blog() {
                   {post.category}
                 </span>
                 <h2 style={{
-                  fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: '22px',
+                  fontFamily: "'Space Mono', monospace", fontWeight: 700, fontSize: '22px',
                   color: 'var(--text)', lineHeight: 1.3, marginTop: '8px',
                 }}>
                   {post.title}

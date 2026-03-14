@@ -211,7 +211,7 @@ export default function EngineeringLab() {
 
                     <h4
                       style={{
-                        fontFamily: "'Syne', sans-serif",
+                        fontFamily: "'Space Mono', monospace",
                         fontWeight: 600,
                         fontSize: '14px',
                         color: 'var(--text)',

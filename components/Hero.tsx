@@ -190,7 +190,7 @@ export default function Hero() {
 
           <h1
             style={{
-              fontFamily: "'Syne', sans-serif",
+              fontFamily: "'Space Mono', monospace",
               fontWeight: 800,
               fontSize: 'clamp(36px, 6vw, 72px)',
               lineHeight: 1.05,
@@ -325,7 +325,7 @@ export default function Hero() {
             >
               <div
                 style={{
-                  fontFamily: "'Syne', sans-serif",
+                  fontFamily: "'Space Mono', monospace",
                   fontWeight: 700,
                   fontSize: '22px',
                   color: 'var(--accent)',

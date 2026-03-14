@@ -111,7 +111,7 @@ export default function About() {
               </div>
               <div
                 style={{
-                  fontFamily: "'Syne', sans-serif",
+                  fontFamily: "'Space Mono', monospace",
                   fontWeight: 600,
                   fontSize: '16px',
                   color: 'var(--text)',
@@ -157,7 +157,7 @@ export default function About() {
                 </div>
                 <div
                   style={{
-                    fontFamily: "'Syne', sans-serif",
+                    fontFamily: "'Space Mono', monospace",
                     fontWeight: 600,
                     fontSize: '15px',
                     color: 'var(--text)',
