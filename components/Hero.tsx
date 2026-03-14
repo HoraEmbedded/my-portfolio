@@ -60,7 +60,7 @@ export default function Hero() {
         alignItems: 'center',
         position: 'relative',
         overflow: 'hidden',
-        backgroundColor: 'var(--bg-base)',
+        backgroundColor: 'var(--bg)',
       }}
     >
       {/* Grid background */}
@@ -88,12 +88,12 @@ export default function Hero() {
         preserveAspectRatio="none"
       >
         {/* Circuit paths */}
-        <path d="M8 20 L25 20 L25 45 L50 45" stroke="var(--accent-amber)" strokeWidth="0.2" fill="none" />
-        <path d="M50 10 L50 45 L75 45 L75 40" stroke="var(--accent-amber)" strokeWidth="0.2" fill="none" />
-        <path d="M92 15 L75 15 L75 40" stroke="var(--accent-cyan)" strokeWidth="0.15" fill="none" />
-        <path d="M15 70 L25 70 L25 45" stroke="var(--accent-cyan)" strokeWidth="0.15" fill="none" />
-        <path d="M85 65 L75 65 L75 40" stroke="var(--accent-amber)" strokeWidth="0.2" fill="none" />
-        <path d="M60 80 L60 45 L50 45" stroke="var(--accent-cyan)" strokeWidth="0.15" fill="none" />
+        <path d="M8 20 L25 20 L25 45 L50 45" stroke="var(--accent)" strokeWidth="0.2" fill="none" />
+        <path d="M50 10 L50 45 L75 45 L75 40" stroke="var(--accent)" strokeWidth="0.2" fill="none" />
+        <path d="M92 15 L75 15 L75 40" stroke="var(--accent)" strokeWidth="0.15" fill="none" />
+        <path d="M15 70 L25 70 L25 45" stroke="var(--accent)" strokeWidth="0.15" fill="none" />
+        <path d="M85 65 L75 65 L75 40" stroke="var(--accent)" strokeWidth="0.2" fill="none" />
+        <path d="M60 80 L60 45 L50 45" stroke="var(--accent)" strokeWidth="0.15" fill="none" />
         {/* Nodes */}
         {nodes.map((node, i) => (
           <circle
@@ -101,7 +101,7 @@ export default function Hero() {
             cx={node.x}
             cy={node.y}
             r="0.8"
-            fill="var(--accent-amber)"
+            fill="var(--accent)"
             opacity={i % 2 === 0 ? 1 : 0.6}
           />
         ))}
@@ -154,7 +154,7 @@ export default function Hero() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
-              background: 'var(--bg-card)',
+              background: 'var(--card)',
               border: '1px solid var(--border)',
               borderRadius: '100px',
               padding: '6px 14px 6px 10px',
@@ -194,14 +194,14 @@ export default function Hero() {
               fontWeight: 800,
               fontSize: 'clamp(36px, 6vw, 72px)',
               lineHeight: 1.05,
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               marginBottom: '16px',
               letterSpacing: '-0.02em',
             }}
           >
             Horacia
             <br />
-            <span style={{ color: 'var(--accent-amber)' }}>Azonhoumon</span>
+            <span style={{ color: 'var(--accent)' }}>Azonhoumon</span>
           </h1>
 
           {/* Typewriter role */}
@@ -215,7 +215,7 @@ export default function Hero() {
             }}
           >
             {displayText}
-            <span className="cursor-blink" style={{ color: 'var(--accent-amber)' }}>
+            <span className="cursor-blink" style={{ color: 'var(--accent)' }}>
               _
             </span>
           </div>
@@ -230,7 +230,7 @@ export default function Hero() {
               maxWidth: '600px',
             }}
           >
-            Engineering student at <strong style={{ color: 'var(--text-primary)' }}>ENSA Tangier</strong>{' '}
+            Engineering student at <strong style={{ color: 'var(--text)' }}>ENSA Tangier</strong>{' '}
             specializing in Automation, Embedded Systems, and Industrial IoT.
             I build intelligent systems that connect the physical and digital worlds.
           </p>
@@ -284,7 +284,7 @@ export default function Hero() {
                   transition: 'color 0.2s ease',
                   display: 'flex',
                 }}
-                onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent-amber)'))}
+                onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent)'))}
                 onMouseLeave={(e) => ((e.currentTarget.style.color = 'var(--text-muted)'))}
               >
                 {social.icon}
@@ -315,7 +315,7 @@ export default function Hero() {
             <div
               key={stat.label}
               style={{
-                background: 'var(--bg-card)',
+                background: 'var(--card)',
                 border: '1px solid var(--border)',
                 borderRadius: '10px',
                 padding: '16px 20px',
@@ -328,7 +328,7 @@ export default function Hero() {
                   fontFamily: "'Syne', sans-serif",
                   fontWeight: 700,
                   fontSize: '22px',
-                  color: 'var(--accent-amber)',
+                  color: 'var(--accent)',
                   lineHeight: 1,
                   marginBottom: '4px',
                 }}
@@ -372,7 +372,7 @@ export default function Hero() {
           style={{
             width: '1px',
             height: '40px',
-            background: 'linear-gradient(to bottom, var(--accent-amber), transparent)',
+            background: 'linear-gradient(to bottom, var(--accent), transparent)',
             animation: 'pulse2 2s ease-in-out infinite',
           }}
         />

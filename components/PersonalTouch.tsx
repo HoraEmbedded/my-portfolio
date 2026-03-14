@@ -35,7 +35,7 @@ const interests = [
 
 export default function PersonalTouch() {
   return (
-    <section id="personal" className="section-padding" style={{ backgroundColor: 'var(--bg-base)' }}>
+    <section id="personal" className="section-padding" style={{ backgroundColor: 'var(--bg)' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
@@ -54,12 +54,12 @@ export default function PersonalTouch() {
             <div
               key={item.title}
               style={{
-                background: 'var(--bg-card)', border: '1px solid var(--border)',
+                background: 'var(--card)', border: '1px solid var(--border)',
                 borderRadius: '12px', padding: '28px',
                 transition: 'border-color 0.2s ease, transform 0.2s ease',
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'var(--accent-amber)';
+                e.currentTarget.style.borderColor = 'var(--accent)';
                 e.currentTarget.style.transform = 'translateY(-2px)';
               }}
               onMouseLeave={(e) => {
@@ -69,13 +69,13 @@ export default function PersonalTouch() {
             >
               <div style={{
                 fontFamily: "'IBM Plex Mono', monospace", fontSize: '20px',
-                color: 'var(--accent-amber)', marginBottom: '14px', lineHeight: 1,
+                color: 'var(--accent)', marginBottom: '14px', lineHeight: 1,
               }}>
                 {item.icon}
               </div>
               <h3 style={{
                 fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '16px',
-                color: 'var(--text-primary)', marginBottom: '10px',
+                color: 'var(--text)', marginBottom: '10px',
               }}>
                 {item.title}
               </h3>
@@ -88,7 +88,7 @@ export default function PersonalTouch() {
 
         {/* Personal quote */}
         <div style={{
-          background: 'var(--bg-card)', borderRadius: '16px', border: '1px solid var(--border)',
+          background: 'var(--card)', borderRadius: '16px', border: '1px solid var(--border)',
           padding: '48px', textAlign: 'center',
           position: 'relative', overflow: 'hidden',
         }}>
@@ -102,7 +102,7 @@ export default function PersonalTouch() {
 
           <p style={{
             fontFamily: "'Syne', sans-serif", fontWeight: 600,
-            fontSize: 'clamp(18px, 3vw, 26px)', color: 'var(--text-primary)',
+            fontSize: 'clamp(18px, 3vw, 26px)', color: 'var(--text)',
             lineHeight: 1.5, maxWidth: '700px', margin: '0 auto 20px',
           }}>
             "I did not choose engineering. Engineering chose me the first time I asked how a machine works — and could not stop asking."

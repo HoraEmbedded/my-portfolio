@@ -40,7 +40,7 @@ export default function Navbar() {
         right: 0,
         zIndex: 1000,
         transition: 'all 0.3s ease',
-        backgroundColor: scrolled ? 'var(--bg-surface)' : 'transparent',
+        backgroundColor: scrolled ? 'var(--surface)' : 'transparent',
         borderBottom: scrolled ? '1px solid var(--border)' : '1px solid transparent',
         backdropFilter: scrolled ? 'blur(12px)' : 'none',
       }}
@@ -63,12 +63,12 @@ export default function Navbar() {
               fontFamily: "'Syne', sans-serif",
               fontWeight: 800,
               fontSize: '18px',
-              color: 'var(--accent-amber)',
+              color: 'var(--accent)',
               letterSpacing: '-0.01em',
             }}
           >
             Hora
-            <span style={{ color: 'var(--text-primary)' }}>Embedded</span>
+            <span style={{ color: 'var(--text)' }}>Embedded</span>
           </span>
           <span
             style={{
@@ -97,7 +97,7 @@ export default function Navbar() {
                 transition: 'color 0.2s ease',
                 letterSpacing: '0.01em',
               }}
-              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--accent-amber)')}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--accent)')}
               onMouseLeave={(e) => ((e.target as HTMLElement).style.color = 'var(--text-secondary)')}
             >
               {link.label}
@@ -110,7 +110,7 @@ export default function Navbar() {
               onClick={toggleTheme}
               title="Toggle dark/light mode"
               style={{
-                background: 'var(--bg-card)',
+                background: 'var(--card)',
                 border: '1px solid var(--border)',
                 borderRadius: '8px',
                 padding: '8px',
@@ -122,8 +122,8 @@ export default function Navbar() {
                 transition: 'all 0.2s ease',
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget.style.borderColor = 'var(--accent-amber)');
-                (e.currentTarget.style.color = 'var(--accent-amber)');
+                (e.currentTarget.style.borderColor = 'var(--accent)');
+                (e.currentTarget.style.color = 'var(--accent)');
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget.style.borderColor = 'var(--border)');
@@ -158,7 +158,7 @@ export default function Navbar() {
               background: 'none',
               border: 'none',
               cursor: 'pointer',
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               display: 'flex',
               padding: '4px',
             }}
@@ -172,7 +172,7 @@ export default function Navbar() {
       {isOpen && (
         <div
           style={{
-            background: 'var(--bg-surface)',
+            background: 'var(--surface)',
             borderTop: '1px solid var(--border)',
             padding: '16px 24px 24px',
           }}

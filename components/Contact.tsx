@@ -45,7 +45,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="section-padding" style={{ backgroundColor: 'var(--bg-surface)' }}>
+    <section id="contact" className="section-padding" style={{ backgroundColor: 'var(--surface)' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
@@ -81,18 +81,18 @@ export default function Contact() {
                   key={item.label}
                   style={{
                     display: 'flex', alignItems: 'center', gap: '14px',
-                    padding: '16px 20px', background: 'var(--bg-card)',
+                    padding: '16px 20px', background: 'var(--card)',
                     border: '1px solid var(--border)', borderRadius: '10px',
                   }}
                 >
-                  <span style={{ color: 'var(--accent-amber)', display: 'flex', flexShrink: 0 }}>
+                  <span style={{ color: 'var(--accent)', display: 'flex', flexShrink: 0 }}>
                     {item.icon}
                   </span>
                   <div>
                     <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '10px', color: 'var(--text-muted)', letterSpacing: '0.1em', marginBottom: '2px' }}>
                       {item.label}
                     </div>
-                    <div style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 500, fontSize: '14px', color: 'var(--text-primary)' }}>
+                    <div style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 500, fontSize: '14px', color: 'var(--text)' }}>
                       {item.value}
                     </div>
                   </div>
@@ -110,16 +110,16 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   style={{
                     display: 'flex', alignItems: 'center', gap: '14px',
-                    padding: '16px 20px', background: 'var(--bg-card)',
+                    padding: '16px 20px', background: 'var(--card)',
                     border: '1px solid var(--border)', borderRadius: '10px',
                     textDecoration: 'none', transition: 'border-color 0.2s ease',
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent-amber)'; }}
+                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent)'; }}
                   onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border)'; }}
                 >
-                  <span style={{ color: 'var(--accent-amber)', display: 'flex', flexShrink: 0 }}>{s.icon}</span>
+                  <span style={{ color: 'var(--accent)', display: 'flex', flexShrink: 0 }}>{s.icon}</span>
                   <div>
-                    <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '14px', color: 'var(--text-primary)', marginBottom: '2px' }}>
+                    <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '14px', color: 'var(--text)', marginBottom: '2px' }}>
                       {s.handle}
                     </div>
                     <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{s.desc}</div>

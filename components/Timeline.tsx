@@ -20,7 +20,7 @@ const typeLabels: Record<string, string> = {
 
 export default function Timeline() {
   return (
-    <section id="timeline" className="section-padding" style={{ backgroundColor: 'var(--bg-surface)' }}>
+    <section id="timeline" className="section-padding" style={{ backgroundColor: 'var(--surface)' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
@@ -50,7 +50,7 @@ export default function Timeline() {
           {/* Vertical line */}
           <div style={{
             position: 'absolute', left: '11px', top: '8px', bottom: '8px',
-            width: '1px', background: 'linear-gradient(to bottom, var(--accent-amber), var(--border), var(--accent-cyan))',
+            width: '1px', background: 'linear-gradient(to bottom, var(--accent), var(--border), var(--accent))',
           }} />
 
           {timeline.map((entry, i) => {
@@ -78,7 +78,7 @@ export default function Timeline() {
                 }} />
 
                 <div style={{
-                  background: entry.highlight ? 'var(--bg-card)' : 'transparent',
+                  background: entry.highlight ? 'var(--card)' : 'transparent',
                   border: entry.highlight ? `1px solid ${color}30` : 'none',
                   borderRadius: '10px',
                   padding: entry.highlight ? '20px 24px' : '4px 0',
@@ -114,7 +114,7 @@ export default function Timeline() {
                   <h3 style={{
                     fontFamily: "'Syne', sans-serif", fontWeight: 600,
                     fontSize: entry.highlight ? '17px' : '15px',
-                    color: 'var(--text-primary)', marginBottom: '4px', lineHeight: 1.3,
+                    color: 'var(--text)', marginBottom: '4px', lineHeight: 1.3,
                   }}>
                     {entry.title}
                   </h3>

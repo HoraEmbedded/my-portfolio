@@ -29,7 +29,7 @@ export default function Projects() {
     <section
       id="projects"
       className="section-padding"
-      style={{ backgroundColor: 'var(--bg-surface)' }}
+      style={{ backgroundColor: 'var(--surface)' }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Section header */}
@@ -64,13 +64,13 @@ export default function Projects() {
                 borderColor:
                   activeFilter === cat
                     ? cat === 'All'
-                      ? 'var(--accent-amber)'
+                      ? 'var(--accent)'
                       : categoryColors[cat]
                     : 'var(--border)',
                 background:
                   activeFilter === cat
                     ? cat === 'All'
-                      ? 'var(--accent-amber)'
+                      ? 'var(--accent)'
                       : categoryColors[cat]
                     : 'transparent',
                 color: activeFilter === cat ? '#07070E' : 'var(--text-secondary)',
@@ -155,7 +155,7 @@ export default function Projects() {
                       fontFamily: "'Syne', sans-serif",
                       fontWeight: 700,
                       fontSize: '18px',
-                      color: 'var(--text-primary)',
+                      color: 'var(--text)',
                       marginBottom: '14px',
                       lineHeight: 1.3,
                     }}
@@ -226,7 +226,7 @@ export default function Projects() {
                               marginBottom: '5px',
                             }}
                           >
-                            <span style={{ color: 'var(--accent-amber)', lineHeight: '1.5', flexShrink: 0 }}>
+                            <span style={{ color: 'var(--accent)', lineHeight: '1.5', flexShrink: 0 }}>
                               ›
                             </span>
                             <span style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{h}</span>
@@ -264,7 +264,7 @@ export default function Projects() {
                       cursor: 'pointer',
                       fontFamily: "'IBM Plex Mono', monospace",
                       fontSize: '11px',
-                      color: 'var(--accent-amber)',
+                      color: 'var(--accent)',
                       display: 'flex',
                       alignItems: 'center',
                       gap: '6px',
@@ -289,7 +289,7 @@ export default function Projects() {
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease' }}
-                        onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent-amber)'))}
+                        onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent)'))}
                         onMouseLeave={(e) => ((e.currentTarget.style.color = 'var(--text-muted)'))}
                         title="View on GitHub"
                       >
@@ -302,7 +302,7 @@ export default function Projects() {
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease' }}
-                        onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent-amber)'))}
+                        onMouseEnter={(e) => ((e.currentTarget.style.color = 'var(--accent)'))}
                         onMouseLeave={(e) => ((e.currentTarget.style.color = 'var(--text-muted)'))}
                         title="View Demo"
                       >
@@ -322,7 +322,7 @@ export default function Projects() {
             textAlign: 'center',
             marginTop: '56px',
             padding: '40px',
-            background: 'var(--bg-card)',
+            background: 'var(--card)',
             borderRadius: '16px',
             border: '1px solid var(--border)',
           }}

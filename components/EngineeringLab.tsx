@@ -77,7 +77,7 @@ export default function EngineeringLab() {
     <section
       id="lab"
       className="section-padding"
-      style={{ backgroundColor: 'var(--bg-base)' }}
+      style={{ backgroundColor: 'var(--bg)' }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
@@ -99,7 +99,7 @@ export default function EngineeringLab() {
         {/* Lab terminal header bar */}
         <div
           style={{
-            background: 'var(--bg-card)',
+            background: 'var(--card)',
             borderRadius: '12px 12px 0 0',
             border: '1px solid var(--border)',
             borderBottom: 'none',
@@ -127,7 +127,7 @@ export default function EngineeringLab() {
         {/* Lab content */}
         <div
           style={{
-            background: 'var(--bg-card)',
+            background: 'var(--card)',
             border: '1px solid var(--border)',
             borderRadius: '0 0 12px 12px',
             padding: '32px 28px',
@@ -143,7 +143,7 @@ export default function EngineeringLab() {
                     fontFamily: "'IBM Plex Mono', monospace",
                     fontSize: '10px',
                     letterSpacing: '0.12em',
-                    color: 'var(--accent-amber)',
+                    color: 'var(--accent)',
                     textTransform: 'uppercase',
                   }}
                 >
@@ -164,7 +164,7 @@ export default function EngineeringLab() {
                   <div
                     key={item.name}
                     style={{
-                      background: 'var(--bg-surface)',
+                      background: 'var(--surface)',
                       border: '1px solid var(--border)',
                       borderRadius: '10px',
                       padding: '20px',
@@ -173,7 +173,7 @@ export default function EngineeringLab() {
                       transition: 'border-color 0.2s ease',
                     }}
                     onMouseEnter={(e) => {
-                      (e.currentTarget.style.borderColor = 'var(--accent-amber)');
+                      (e.currentTarget.style.borderColor = 'var(--accent)');
                     }}
                     onMouseLeave={(e) => {
                       (e.currentTarget.style.borderColor = 'var(--border)');
@@ -214,7 +214,7 @@ export default function EngineeringLab() {
                         fontFamily: "'Syne', sans-serif",
                         fontWeight: 600,
                         fontSize: '14px',
-                        color: 'var(--text-primary)',
+                        color: 'var(--text)',
                         marginBottom: '8px',
                         paddingRight: '80px',
                         lineHeight: 1.4,
@@ -251,7 +251,7 @@ export default function EngineeringLab() {
         {/* Quote */}
         <blockquote
           style={{
-            borderLeft: '3px solid var(--accent-amber)',
+            borderLeft: '3px solid var(--accent)',
             paddingLeft: '20px',
             fontFamily: "'IBM Plex Mono', monospace",
             fontSize: '14px',

@@ -17,7 +17,7 @@ export default function Skills() {
     <section
       id="skills"
       className="section-padding"
-      style={{ backgroundColor: 'var(--bg-base)' }}
+      style={{ backgroundColor: 'var(--bg)' }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Section header */}
@@ -57,7 +57,7 @@ export default function Skills() {
                   fontSize: '22px',
                   marginBottom: '16px',
                   fontFamily: "'IBM Plex Mono', monospace",
-                  color: 'var(--accent-amber)',
+                  color: 'var(--accent)',
                   lineHeight: 1,
                 }}
               >
@@ -69,7 +69,7 @@ export default function Skills() {
                   fontFamily: "'Syne', sans-serif",
                   fontWeight: 700,
                   fontSize: '18px',
-                  color: 'var(--text-primary)',
+                  color: 'var(--text)',
                   marginBottom: '10px',
                 }}
               >
@@ -105,7 +105,7 @@ export default function Skills() {
               fontFamily: "'Syne', sans-serif",
               fontWeight: 600,
               fontSize: '22px',
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               marginBottom: '28px',
             }}
           >
@@ -125,8 +125,8 @@ export default function Skills() {
                   padding: '7px 16px',
                   borderRadius: '6px',
                   border: '1px solid',
-                  borderColor: activeCategory === cat ? 'var(--accent-amber)' : 'var(--border)',
-                  background: activeCategory === cat ? 'var(--accent-amber)' : 'transparent',
+                  borderColor: activeCategory === cat ? 'var(--accent)' : 'var(--border)',
+                  background: activeCategory === cat ? 'var(--accent)' : 'transparent',
                   color: activeCategory === cat ? '#07070E' : 'var(--text-secondary)',
                   cursor: 'pointer',
                   transition: 'all 0.2s ease',
@@ -150,7 +150,7 @@ export default function Skills() {
               <div
                 key={skill.name}
                 style={{
-                  background: 'var(--bg-card)',
+                  background: 'var(--card)',
                   border: '1px solid var(--border)',
                   borderRadius: '10px',
                   padding: '18px 20px',
@@ -169,7 +169,7 @@ export default function Skills() {
                       fontFamily: "'Outfit', sans-serif",
                       fontWeight: 500,
                       fontSize: '14px',
-                      color: 'var(--text-primary)',
+                      color: 'var(--text)',
                     }}
                   >
                     {skill.name}
@@ -178,7 +178,7 @@ export default function Skills() {
                     style={{
                       fontFamily: "'IBM Plex Mono', monospace",
                       fontSize: '11px',
-                      color: 'var(--accent-amber)',
+                      color: 'var(--accent)',
                     }}
                   >
                     {skill.level}%
@@ -199,7 +199,7 @@ export default function Skills() {
                       height: '100%',
                       width: `${skill.level}%`,
                       borderRadius: '2px',
-                      background: 'linear-gradient(90deg, var(--accent-amber), var(--accent-cyan))',
+                      background: 'linear-gradient(90deg, var(--accent), var(--accent))',
                     }}
                   />
                 </div>

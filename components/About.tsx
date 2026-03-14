@@ -5,7 +5,7 @@ export default function About() {
     <section
       id="about"
       className="section-padding"
-      style={{ backgroundColor: 'var(--bg-surface)' }}
+      style={{ backgroundColor: 'var(--surface)' }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Section header */}
@@ -39,8 +39,8 @@ export default function About() {
                 marginBottom: '24px',
               }}
             >
-              My name is <strong style={{ color: 'var(--text-primary)' }}>Horacia Azonhoumon</strong>,
-              known in the maker community as <strong style={{ color: 'var(--accent-amber)' }}>HoraEmbedded</strong>.
+              My name is <strong style={{ color: 'var(--text)' }}>Horacia Azonhoumon</strong>,
+              known in the maker community as <strong style={{ color: 'var(--accent)' }}>HoraEmbedded</strong>.
               I am 22 years old, originally from Benin, currently studying at ENSA Tangier in Morocco —
               one of the best engineering schools in North Africa.
             </p>
@@ -54,7 +54,7 @@ export default function About() {
               }}
             >
               My journey into engineering began with a simple question:{' '}
-              <em style={{ color: 'var(--text-primary)' }}>
+              <em style={{ color: 'var(--text)' }}>
                 "How do machines know what to do?"
               </em>{' '}
               That curiosity led me to study electronics, programming, and automation.
@@ -70,7 +70,7 @@ export default function About() {
               }}
             >
               Today, I am pursuing a degree in{' '}
-              <strong style={{ color: 'var(--text-primary)' }}>
+              <strong style={{ color: 'var(--text)' }}>
                 Electronic Systems and Automation Engineering
               </strong>
               , expected to graduate in June 2027. My focus is on connecting physical machines
@@ -114,7 +114,7 @@ export default function About() {
                   fontFamily: "'Syne', sans-serif",
                   fontWeight: 600,
                   fontSize: '16px',
-                  color: 'var(--text-primary)',
+                  color: 'var(--text)',
                   marginBottom: '6px',
                 }}
               >
@@ -160,7 +160,7 @@ export default function About() {
                     fontFamily: "'Syne', sans-serif",
                     fontWeight: 600,
                     fontSize: '15px',
-                    color: 'var(--text-primary)',
+                    color: 'var(--text)',
                     marginBottom: '5px',
                   }}
                 >
@@ -196,7 +196,7 @@ export default function About() {
                         fontSize: '11px',
                         padding: '5px 12px',
                         borderRadius: '4px',
-                        background: 'var(--bg-surface)',
+                        background: 'var(--surface)',
                         border: '1px solid var(--border)',
                         color: 'var(--text-secondary)',
                       }}

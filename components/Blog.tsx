@@ -28,7 +28,7 @@ export default function Blog() {
               fontFamily: "'Syne', sans-serif",
               fontWeight: 700,
               fontSize: '18px',
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               marginTop: '28px',
               marginBottom: '10px',
             }}
@@ -43,7 +43,7 @@ export default function Blog() {
             key={i}
             style={{
               fontWeight: 600,
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               marginBottom: '8px',
               fontSize: '15px',
             }}
@@ -59,7 +59,7 @@ export default function Blog() {
         <p key={i} style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '4px' }}>
           {parts.map((part, j) =>
             j % 2 === 1 ? (
-              <strong key={j} style={{ color: 'var(--text-primary)' }}>
+              <strong key={j} style={{ color: 'var(--text)' }}>
                 {part}
               </strong>
             ) : (
@@ -72,7 +72,7 @@ export default function Blog() {
   }
 
   return (
-    <section id="blog" className="section-padding" style={{ backgroundColor: 'var(--bg-base)' }}>
+    <section id="blog" className="section-padding" style={{ backgroundColor: 'var(--bg)' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
@@ -116,7 +116,7 @@ export default function Blog() {
 
                   <h3 style={{
                     fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: '17px',
-                    color: 'var(--text-primary)', lineHeight: 1.35, marginBottom: '12px',
+                    color: 'var(--text)', lineHeight: 1.35, marginBottom: '12px',
                   }}>
                     {post.title}
                   </h3>
@@ -142,7 +142,7 @@ export default function Blog() {
                   </span>
                   <span style={{
                     display: 'flex', alignItems: 'center', gap: '5px',
-                    fontFamily: "'IBM Plex Mono', monospace", fontSize: '11px', color: 'var(--accent-amber)',
+                    fontFamily: "'IBM Plex Mono', monospace", fontSize: '11px', color: 'var(--accent)',
                   }}>
                     Read <ArrowRight size={12} />
                   </span>
@@ -155,11 +155,11 @@ export default function Blog() {
         {/* Write-more note */}
         <div style={{
           marginTop: '48px', padding: '28px 32px',
-          background: 'var(--bg-card)', borderRadius: '12px', border: '1px solid var(--border)',
+          background: 'var(--card)', borderRadius: '12px', border: '1px solid var(--border)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px',
         }}>
           <div>
-            <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '16px', color: 'var(--text-primary)', marginBottom: '4px' }}>
+            <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 600, fontSize: '16px', color: 'var(--text)', marginBottom: '4px' }}>
               More articles coming soon
             </div>
             <div style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
@@ -187,7 +187,7 @@ export default function Blog() {
           onClick={(e) => { if (e.target === e.currentTarget) setActivePost(null); }}
         >
           <div style={{
-            background: 'var(--bg-surface)', borderRadius: '16px', border: '1px solid var(--border)',
+            background: 'var(--surface)', borderRadius: '16px', border: '1px solid var(--border)',
             maxWidth: '740px', width: '100%', marginTop: '40px', marginBottom: '40px', overflow: 'hidden',
           }}>
             {/* Modal header */}
@@ -206,7 +206,7 @@ export default function Blog() {
                 </span>
                 <h2 style={{
                   fontFamily: "'Syne', sans-serif", fontWeight: 700, fontSize: '22px',
-                  color: 'var(--text-primary)', lineHeight: 1.3, marginTop: '8px',
+                  color: 'var(--text)', lineHeight: 1.3, marginTop: '8px',
                 }}>
                   {post.title}
                 </h2>
@@ -218,7 +218,7 @@ export default function Blog() {
               <button
                 onClick={() => setActivePost(null)}
                 style={{
-                  background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '8px',
+                  background: 'var(--card)', border: '1px solid var(--border)', borderRadius: '8px',
                   padding: '8px', cursor: 'pointer', color: 'var(--text-secondary)',
                   display: 'flex', flexShrink: 0, marginLeft: '16px',
                 }}

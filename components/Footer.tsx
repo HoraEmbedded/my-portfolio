@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer style={{
-      backgroundColor: 'var(--bg-base)',
+      backgroundColor: 'var(--bg)',
       borderTop: '1px solid var(--border)',
       padding: '48px 24px',
     }}>
@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <div style={{
               fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: '18px',
-              color: 'var(--accent-amber)', marginBottom: '6px',
+              color: 'var(--accent)', marginBottom: '6px',
             }}>
               HoraEmbedded
             </div>
@@ -40,7 +40,7 @@ export default function Footer() {
                   color: 'var(--text-muted)', textDecoration: 'none',
                   transition: 'color 0.2s ease',
                 }}
-                onMouseEnter={(e) => { (e.target as HTMLElement).style.color = 'var(--accent-amber)'; }}
+                onMouseEnter={(e) => { (e.target as HTMLElement).style.color = 'var(--accent)'; }}
                 onMouseLeave={(e) => { (e.target as HTMLElement).style.color = 'var(--text-muted)'; }}
               >
                 {link}
@@ -64,12 +64,12 @@ export default function Footer() {
                 style={{
                   color: 'var(--text-muted)', transition: 'color 0.2s ease',
                   display: 'flex', padding: '6px',
-                  background: 'var(--bg-card)', border: '1px solid var(--border)',
+                  background: 'var(--card)', border: '1px solid var(--border)',
                   borderRadius: '7px',
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.color = 'var(--accent-amber)';
-                  e.currentTarget.style.borderColor = 'var(--accent-amber)';
+                  e.currentTarget.style.color = 'var(--accent)';
+                  e.currentTarget.style.borderColor = 'var(--accent)';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.color = 'var(--text-muted)';

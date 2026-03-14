@@ -36,7 +36,7 @@ export default function FutureVision() {
     <section
       id="vision"
       className="section-padding"
-      style={{ backgroundColor: 'var(--bg-surface)' }}
+      style={{ backgroundColor: 'var(--surface)' }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
@@ -86,7 +86,7 @@ export default function FutureVision() {
                   fontFamily: "'Syne', sans-serif",
                   fontWeight: 700,
                   fontSize: '20px',
-                  color: 'var(--text-primary)',
+                  color: 'var(--text)',
                   marginBottom: '12px',
                 }}
               >
@@ -115,7 +115,7 @@ export default function FutureVision() {
                       borderRadius: '4px',
                       background: 'rgba(245,166,35,0.08)',
                       border: '1px solid rgba(245,166,35,0.2)',
-                      color: 'var(--accent-amber)',
+                      color: 'var(--accent)',
                     }}
                   >
                     {kw}
@@ -129,7 +129,7 @@ export default function FutureVision() {
         {/* Career path */}
         <div
           style={{
-            background: 'var(--bg-card)',
+            background: 'var(--card)',
             borderRadius: '16px',
             border: '1px solid var(--border)',
             padding: '48px',
@@ -140,7 +140,7 @@ export default function FutureVision() {
               fontFamily: "'Syne', sans-serif",
               fontWeight: 700,
               fontSize: '22px',
-              color: 'var(--text-primary)',
+              color: 'var(--text)',
               marginBottom: '32px',
             }}
           >
@@ -164,7 +164,7 @@ export default function FutureVision() {
                       top: '14px',
                       width: '24px',
                       height: '1px',
-                      background: 'var(--accent-amber)',
+                      background: 'var(--accent)',
                       opacity: 0.3,
                     }}
                     className="hidden-mobile"
@@ -176,7 +176,7 @@ export default function FutureVision() {
                     fontFamily: "'IBM Plex Mono', monospace",
                     fontSize: '10px',
                     letterSpacing: '0.12em',
-                    color: 'var(--accent-amber)',
+                    color: 'var(--accent)',
                     marginBottom: '8px',
                     textTransform: 'uppercase',
                   }}
@@ -188,7 +188,7 @@ export default function FutureVision() {
                     fontFamily: "'Syne', sans-serif",
                     fontWeight: 600,
                     fontSize: '16px',
-                    color: 'var(--text-primary)',
+                    color: 'var(--text)',
                     marginBottom: '6px',
                   }}
                 >
