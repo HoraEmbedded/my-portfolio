@@ -20,29 +20,29 @@ export interface SkillCategory {
 
 export const skills: Skill[] = [
   // Programming
-  { name: "Python", level: 78, category: "Programming" },
-  { name: "C / C++", level: 72, category: "Programming" },
-  { name: "MATLAB / Simulink", level: 65, category: "Programming" },
-  { name: "Ladder Logic (PLC)", level: 60, category: "Programming" },
-  { name: "Shell / Bash", level: 55, category: "Programming" },
+  { name: "Python", level: 0, category: "Programming" },
+  { name: "C / C++", level: 0, category: "Programming" },
+  { name: "MATLAB / Simulink", level: 0, category: "Programming" },
+  { name: "Ladder Logic (PLC)", level: 0, category: "Programming" },
+  { name: "Shell / Bash", level: 0, category: "Programming" },
   // Hardware
-  { name: "Arduino", level: 80, category: "Hardware" },
-  { name: "ESP32 / ESP8266", level: 72, category: "Hardware" },
-  { name: "Raspberry Pi", level: 65, category: "Hardware" },
-  { name: "PLC (Siemens / Schneider)", level: 60, category: "Hardware" },
-  { name: "PCB Design (KiCad)", level: 50, category: "Hardware" },
+  { name: "Arduino", level: 0, category: "Hardware" },
+  { name: "ESP32 / ESP8266", level: 0, category: "Hardware" },
+  { name: "Raspberry Pi", level: 0, category: "Hardware" },
+  { name: "PLC (Siemens / Schneider)", level: 0, category: "Hardware" },
+  { name: "PCB Design (KiCad)", level: 0, category: "Hardware" },
   // Tools
-  { name: "Git / GitHub", level: 75, category: "Tools" },
-  { name: "Linux (Ubuntu)", level: 68, category: "Tools" },
-  { name: "MQTT / Node-RED", level: 65, category: "Tools" },
-  { name: "VS Code", level: 85, category: "Tools" },
-  { name: "Wireshark / Serial Monitor", level: 50, category: "Tools" },
+  { name: "Git / GitHub", level: 0, category: "Tools" },
+  { name: "Linux (Ubuntu)", level: 0, category: "Tools" },
+  { name: "MQTT / Node-RED", level: 0, category: "Tools" },
+  { name: "VS Code", level: 0, category: "Tools" },
+  { name: "Wireshark / Serial Monitor", level: 0, category: "Tools" },
   // Concepts
-  { name: "Control Systems", level: 70, category: "Concepts" },
-  { name: "Industrial IoT", level: 68, category: "Concepts" },
-  { name: "Automation Design", level: 65, category: "Concepts" },
-  { name: "Machine Learning (basics)", level: 52, category: "Concepts" },
-  { name: "Communication Protocols", level: 63, category: "Concepts" },
+  { name: "Control Systems", level: 0, category: "Concepts" },
+  { name: "Industrial IoT", level: 0, category: "Concepts" },
+  { name: "Automation Design", level: 0, category: "Concepts" },
+  { name: "Machine Learning (basics)", level: 0, category: "Concepts" },
+  { name: "Communication Protocols", level: 0, category: "Concepts" },
 ];
 
 export const engineeringDomains: SkillCategory[] = [
