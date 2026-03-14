@@ -105,7 +105,6 @@ Use **bold** for emphasis.
   `,
 },
 ```
-
 ## HOW TO CHANGE YOUR EMAIL / LINKS
 
 - Hero buttons: `components/Hero.tsx` → find the email/github/linkedin links

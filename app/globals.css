@@ -106,9 +106,17 @@ body {
   text-decoration: none;
 }
 
+.btn-accent {
+  position: relative;   /* ← ajoute si pas déjà là */
+  overflow: hidden;     /* ← ajoute si pas déjà là */
+  /* ... reste identique */
+}
+
 .btn-primary:hover { filter: brightness(1.1); transform: translateY(-1px); }
 
 .btn-outline {
+  position: relative;   /* ← ajoute si pas déjà là */
+  overflow: hidden;
   background-color: transparent;
   color: var(--text);
   font-family: 'Space Mono', monospace;
@@ -172,3 +180,5 @@ body {
 .animate-pulse-slow { animation: pulse2 3s ease-in-out infinite; }
 
 .glow-amber { text-shadow: 0 0 30px rgba(245,166,35,0.45); }
+
+
