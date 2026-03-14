@@ -23,7 +23,7 @@ export default function Skills() {
         {/* Section header */}
         <div style={{ marginBottom: '64px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>
-            — 02 / Engineering Identity
+          Engineering Identity
           </p>
           <h2
             className="section-title"

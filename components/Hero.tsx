@@ -229,8 +229,7 @@ export default function Hero() {
             }}
           >
             Engineering student at <strong style={{ color: 'var(--text)' }}>ENSA Tangier</strong>{' '}
-            specializing in Automation, Embedded Systems, and Industrial IoT.
-            I build intelligent systems that connect the physical and digital worlds.
+            specializing in <strong style={{ color: 'var(--text)' }}>in Electronic Systems and Automation</strong>,{' '}
           </p>
 
           {/* CTA Buttons */}

@@ -11,7 +11,7 @@ export default function About() {
         {/* Section header */}
         <div style={{ marginBottom: '64px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>
-            — 01 / About Me
+            About Me
           </p>
           <h2
             className="section-title"

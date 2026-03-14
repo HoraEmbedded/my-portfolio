@@ -42,7 +42,7 @@ export default function FutureVision() {
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>
-            — 05 / Future Vision
+            Future Vision
           </p>
           <h2
             className="section-title"

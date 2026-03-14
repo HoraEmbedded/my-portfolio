@@ -35,7 +35,7 @@ export default function Projects() {
         {/* Section header */}
         <div style={{ marginBottom: '16px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>
-            — 03 / Engineering Problems Solved
+          Engineering Problems Solved
           </p>
           <h2
             className="section-title"
