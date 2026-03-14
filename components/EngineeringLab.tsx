@@ -83,7 +83,7 @@ export default function EngineeringLab() {
         {/* Header */}
         <div style={{ marginBottom: '20px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>
-            — 04 / Engineering Lab
+          Engineering Lab
           </p>
           <h2
             className="section-title"

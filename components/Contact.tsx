@@ -49,7 +49,7 @@ export default function Contact() {
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
-          <p className="section-label" style={{ marginBottom: '12px' }}>— 09 / Contact</p>
+          <p className="section-label" style={{ marginBottom: '12px' }}>Contact</p>
           <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
             Let us build something together
           </h2>

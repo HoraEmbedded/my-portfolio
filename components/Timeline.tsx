@@ -24,7 +24,7 @@ export default function Timeline() {
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
-          <p className="section-label" style={{ marginBottom: '12px' }}>— 07 / Engineering Timeline</p>
+          <p className="section-label" style={{ marginBottom: '12px' }}>Engineering Timeline</p>
           <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
             My Journey
           </h2>
