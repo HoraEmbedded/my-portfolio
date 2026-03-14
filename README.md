@@ -190,5 +190,5 @@ if (response.ok) setStatus('sent');
 
 ---
 
-*HoraEmbedded — Portfolio of Horacia Azonhoumon*
-*ENSA Tangier, Morocco · 2025*
+*HoraEmbedded — Portfolio of Horacia AZONHOUMON*
+*ENSA Tangier, Morocco · 2026*

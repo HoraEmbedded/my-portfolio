@@ -150,7 +150,7 @@ export default function FutureVision() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '24px' }}>
             {[
               { phase: 'Now', title: 'Student Engineer', focus: 'Automation + Embedded + IIoT fundamentals' },
-              { phase: '2025', title: 'Engineering Intern', focus: 'Real factory environment + industrial protocols' },
+              { phase: '2026', title: 'Engineering Intern', focus: 'Real factory environment + industrial protocols' },
               { phase: '2027', title: 'Junior Engineer', focus: 'IIoT projects + AI integration' },
               { phase: '2030+', title: 'AIoT Industrial Engineer', focus: 'Lead smart factory systems worldwide' },
             ].map((step, i) => (

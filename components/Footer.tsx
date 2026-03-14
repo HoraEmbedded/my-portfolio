@@ -92,7 +92,7 @@ export default function Footer() {
             © {year} Horacia Azonhoumon — HoraEmbedded. All rights reserved.
           </span>
           <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '11px', color: 'var(--text-muted)' }}>
-            ENSA Tangier · Morocco · 2025
+            ENSA Tangier · Morocco · 2026
           </span>
         </div>
       </div>
