@@ -57,7 +57,7 @@ export default function Skills() {
                       }}>
                         <span style={{
                           fontFamily: "'DM Sans', sans-serif",
-                          fontSize: '12px',
+                          fontSize: '11px',
                           color: 'var(--text)',
                           fontWeight: 400,
                         }}>
@@ -65,7 +65,7 @@ export default function Skills() {
                         </span>
                         <span style={{
                           fontFamily: "'Space Mono', monospace",
-                          fontSize: '12px',
+                          fontSize: '11px',
                           color: 'var(--text-secondary)',
                         }}>
                           {skill.level}/10

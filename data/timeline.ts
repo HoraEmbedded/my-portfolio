@@ -1,100 +1,63 @@
-// ============================================================
-// DATA: TIMELINE
-// To add a new entry, copy one object and fill in your info.
-// ============================================================
-
 export interface TimelineEntry {
-  year: string;
+  date: string;
   title: string;
-  subtitle: string;
   description: string;
-  type: "education" | "project" | "internship" | "certification" | "goal";
-  highlight?: boolean;
+  type: "Education" | "Project" | "Internship" | "Certification" | "Learning" | "Lab" | "Career" | "Goal";
 }
 
 export const timeline: TimelineEntry[] = [
   {
-    year: "2021",
-    title: "Baccalaureate — Sciences Physiques",
-    subtitle: "High School, Benin",
-    description:
-      "Graduated with strong results in physics, mathematics, and chemistry. Developed a passion for electronics and how machines work.",
-    type: "education",
-  },
-  {
-    year: "2022",
+    date: "September 2022",
     title: "Joined ENSA Tangier",
-    subtitle: "National School of Applied Sciences, Morocco",
-    description:
-      "Enrolled in the Electronic Systems and Automation Engineering program. First exposure to control theory, programming, and electrical engineering.",
-    type: "education",
-    highlight: true,
+    description: "Started Engineering degree in Electronic Systems and Automation. First real exposure to control theory, electronics, and programming.",
+    type: "Education",
   },
   {
-    year: "2023",
-    title: "First Hardware Project — Line Following Robot",
-    subtitle: "Personal Project",
-    description:
-      "Built my first autonomous robot using Arduino and PID control. This project showed me that software and hardware can create intelligent machines.",
-    type: "project",
+    date: "March 2023",
+    title: "First Arduino Project",
+    description: "Built a temperature monitoring system with an LCD display. This was the project that made everything click — hardware, code, real output.",
+    type: "Project",
   },
   {
-    year: "2023",
-    title: "Completed: PCB Design with KiCad",
-    subtitle: "Self-Learning Certification",
-    description:
-      "Learned PCB design fundamentals. Designed and documented a simple home automation circuit board.",
-    type: "certification",
+    date: "September 2023",
+    title: "Discovered IoT and MQTT",
+    description: "Set up my first MQTT broker and connected multiple ESP32 nodes. Started thinking about systems, not just individual devices.",
+    type: "Learning",
   },
   {
-    year: "2024",
-    title: "IoT Monitoring System Project",
-    subtitle: "Academic + Personal Project",
-    description:
-      "Built an ESP32-based temperature monitoring system with MQTT and Node-RED dashboard. First real IoT project connecting hardware to a cloud dashboard.",
-    type: "project",
-    highlight: true,
+    date: "January 2024",
+    title: "PCB Design — First Custom Board",
+    description: "Learned KiCad, designed a custom sensor interface PCB, and received the manufactured boards. First time holding hardware I had fully designed.",
+    type: "Project",
   },
   {
-    year: "2024",
-    title: "Industrial Automation Internship",
-    subtitle: "Target — Summer 2024",
-    description:
-      "Seeking first industrial internship to apply PLC and automation skills in a real factory environment.",
-    type: "internship",
+    date: "June 2024",
+    title: "Started Personal Lab",
+    description: "Dedicated a space and budget to continuous experimentation. Began documenting every experiment systematically.",
+    type: "Lab",
   },
   {
-    year: "2025",
-    title: "AI for Industry — Predictive Maintenance",
-    subtitle: "Research Project",
-    description:
-      "Working on machine learning project to detect motor failures from vibration data. Combining Python, data analysis, and industrial knowledge.",
-    type: "project",
+    date: "Summer 2025",
+    title: "Internship at an Engineering Company",
+    description: "Target: industrial automation, embedded systems, or IIoT role at a major engineering or technology company in Morocco or internationally.",
+    type: "Internship",
   },
   {
-    year: "2025",
-    title: "Advanced Internship at Engineering Company",
-    subtitle: "Goal — 2025",
-    description:
-      "Target internship at a major automation or industrial technology company. Goal: work on real IIoT or smart factory projects.",
-    type: "goal",
-    highlight: true,
+    date: "2025–2026",
+    title: "IIoT and PLC Certifications",
+    description: "Planning to obtain professional certifications in industrial IoT (Coursera, edX) and PLC programming (Siemens TIA Portal).",
+    type: "Certification",
   },
   {
-    year: "2027",
+    date: "June 2027",
     title: "Engineering Degree — ENSA Tangier",
-    subtitle: "Expected Graduation",
-    description:
-      "Complete my engineering degree in Electronic Systems and Automation. Final year project planned in industrial IoT or AI for industry.",
-    type: "education",
-    highlight: true,
+    description: "Expected graduation with an Engineering degree in Electronic Systems and Automation, ready for a full-time engineering career.",
+    type: "Education",
   },
   {
-    year: "2027+",
-    title: "AIoT Industrial Engineer",
-    subtitle: "Career Goal",
-    description:
-      "Join an international engineering company as an Automation & Industrial IoT Engineer. Build intelligent systems for the smart factories of tomorrow.",
-    type: "goal",
+    date: "2027+",
+    title: "Automation & IIoT Engineer",
+    description: "Full-time career in industrial automation, smart factory engineering, or industrial IoT — contributing to Industry 4.0 from the ground level.",
+    type: "Career",
   },
 ];

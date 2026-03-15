@@ -6,11 +6,7 @@ const interests = [
     description: 'Anime teaches patience, imagination, and persistence. My favorite series: Fullmetal Alchemist (an engineer who uses science to change the world).',
     icon: '◈',
   },
-  {
-    title: 'DIY Electronics',
-    description: 'Weekends in my room with sensors, wires, and a soldering iron. Not every project works — but every one teaches something.',
-    icon: '◉',
-  },
+  
   {
     title: 'Technology Exploration',
     description: 'I follow the latest in robotics, embedded AI, and smart manufacturing. Technology changes fast — I want to be ahead of it.',
@@ -43,7 +39,7 @@ export default function PersonalTouch() {
           <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
             Beyond the code
           </h2>
-          <p style={{ fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '540px' }}>
+          <p style={{ fontSize: '14px', color: 'var(--text-secondary)', maxWidth: '540px' }}>
             The best engineers are curious humans first. Here is what makes me who I am outside the lab.
           </p>
         </div>
@@ -89,7 +85,7 @@ export default function PersonalTouch() {
         {/* Personal quote */}
         <div style={{
           background: 'var(--card)', borderRadius: '16px', border: '1px solid var(--border)',
-          padding: '48px', textAlign: 'center',
+          padding: '18px', textAlign: 'center',
           position: 'relative', overflow: 'hidden',
         }}>
           {/* Background decoration */}
@@ -102,13 +98,13 @@ export default function PersonalTouch() {
 
           <p style={{
             fontFamily: "'Space Mono', monospace", fontWeight: 600,
-            fontSize: 'clamp(18px, 3vw, 26px)', color: 'var(--text)',
+            fontSize: 'clamp(11px, 3vw, 12px)', color: 'var(--text)',
             lineHeight: 1.5, maxWidth: '700px', margin: '0 auto 20px',
           }}>
             "I did not choose engineering. Engineering chose me the first time I asked how a machine works — and could not stop asking."
           </p>
           <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '12px', color: 'var(--text-muted)' }}>
-            — Horacia Azonhoumon / HoraEmbedded
+            Horacia Azonhoumon / HoraEmbedded
           </div>
         </div>
       </div>
