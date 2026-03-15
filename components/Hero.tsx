@@ -305,7 +305,7 @@ export default function Hero() {
         >
           {[
             { value: '6+', label: 'Projects' },
-            { value: '2025', label: 'Seeking' },
+            { value: '2026', label: 'Seeking' },
             { value: 'IoT', label: 'Specialty' },
             { value: '22', label: 'Years old' },
           ].map((stat) => (

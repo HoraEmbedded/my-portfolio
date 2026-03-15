@@ -138,7 +138,7 @@ export default function About() {
               },
               {
                 label: 'Currently Seeking',
-                value: 'Engineering Internship — 2025',
+                value: 'Engineering Internship — 2026',
                 sub: 'Open to remote and on-site opportunities',
               },
             ].map((item) => (
