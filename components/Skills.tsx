@@ -106,7 +106,7 @@ export default function Skills() {
           color: 'var(--muted)',
           fontStyle: 'italic',
         }}>
-          * Scale based on current proficiency level — not years of experience.
+          * Scale based on current proficiency level - not years of experience.
         </p>
 
       </div>

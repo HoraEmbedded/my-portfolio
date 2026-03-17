@@ -41,8 +41,7 @@ export default function About() {
             >
               My name is <strong style={{ color: 'var(--text)' }}>Horacia Azonhoumon</strong>,
               known in the maker community as <strong style={{ color: 'var(--accent)' }}>HoraEmbedded</strong>.
-              I am 22 years old, originally from Benin, currently studying at ENSA Tangier in Morocco —
-              one of the best engineering schools in North Africa.
+              I am 22 years old, originally from Benin,engineering student at ENSA Tangier, Morocco, studying Electronic Systems and Automation. I will graduate in June 2027.
             </p>
 
             <p
@@ -133,8 +132,8 @@ export default function About() {
               },
               {
                 label: 'Career Target',
-                value: 'AIoT Industrial Engineer',
-                sub: 'Automation · Embedded Systems · IIoT',
+                value: 'Automation & IIoT Engineer',
+                sub: 'Automation · IIoT',
               },
               {
                 label: 'Currently Seeking',

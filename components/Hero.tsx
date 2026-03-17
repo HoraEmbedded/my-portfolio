@@ -6,7 +6,6 @@ import { Download, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 // The words that cycle in the hero title
 const roles = [
   'Automation Engineer',
-  'Industrial IoT Builder',
   'Control Systems Engineer',
 ];
 
