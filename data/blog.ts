@@ -128,7 +128,7 @@ I am building toward this goal every day. This portfolio is part of that journey
   id: 4,
   title: "PLC Programming Languages under IEC 61131-3",
   summary: "Overview of IEC 61131-3, the five PLC programming languages, their advantages and disadvantages, and the most widely used language in industry.",
-  date: "June 2025",
+  date: "March 17, 2026",
   readTime: "5 min read",
   category: "Learning",   // Learning | Project | Industry | Reflection
   tags: ["PLC", "IEC", "PLC Languages", "Ladder Diagram", "Automation"],
