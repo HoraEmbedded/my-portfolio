@@ -123,4 +123,153 @@ That is exactly where I want to be.
 I am building toward this goal every day. This portfolio is part of that journey.
     `,
   },
+
+  {
+  id: 4,
+  title: "PLC Programming Languages under IEC 61131-3",
+  summary: "Overview of IEC 61131-3, the five PLC programming languages, their advantages and disadvantages, and the most widely used language in industry.",
+  date: "June 2025",
+  readTime: "5 min read",
+  category: "Learning",   // Learning | Project | Industry | Reflection
+  tags: ["PLC", "IEC", "PLC Languages", "Ladder Diagram", "Automation"],
+  content: `
+## What is a PLC?
+
+A PLC means **Programmable Logic Controller**.
+
+A PLC is an industrial computer. It is used to control machines and industrial processes.  
+It reads **inputs**, makes decisions with a program, and controls **outputs**.
+
+For example:
+- a sensor sends a signal to the PLC
+- the PLC checks the logic
+- the PLC starts a motor, a lamp, or a valve
+
+## What is IEC?
+
+**IEC** means **International Electrotechnical Commission**.
+
+IEC creates international standards for electrical and electronic systems.
+
+## What is IEC 61131-3?
+
+IEC 61131-3 is the main standard for PLC programming languages.
+
+When people talk about the **classic PLC languages**, they usually mean these five:
+- **LD** = Ladder Diagram
+- **FBD** = Function Block Diagram
+- **ST** = Structured Text
+- **SFC** = Sequential Function Chart
+- **IL** = Instruction List
+
+> Important note: IL is mostly found in older documents and older software.  
+> In modern practice, LD, FBD, ST, and SFC are more important.
+
+## 1) LD : Ladder Diagram
+
+LD is a graphical language.  
+It looks like electrical relay diagrams.
+
+**Advantages**
+- easy to read for electricians and technicians
+- very good for simple logic
+- very good for maintenance and troubleshooting
+- popular in factories
+
+**Disadvantages**
+- not the best for complex math
+- large programs can become difficult to read
+- not ideal for advanced data handling
+
+## 2) FBD : Function Block Diagram
+
+FBD is a graphical language made with blocks connected together.
+
+**Advantages**
+- easy for control functions and signal flow
+- good for analog control and process logic
+- good for reusable function blocks
+- visual and practical
+
+**Disadvantages**
+- big diagrams can become crowded
+- complex systems may be hard to follow
+- less convenient for long algorithms
+
+## 3) ST : Structured Text
+
+ST is a text language, similar to programming languages.
+
+**Advantages**
+- very good for math and formulas
+- very good for loops, arrays, and data processing
+- good for advanced logic
+- compact and powerful
+
+**Disadvantages**
+- harder for beginners
+- less visual than LD or FBD
+- maintenance teams may prefer graphical languages
+
+## 4) SFC : Sequential Function Chart
+
+SFC is used to describe steps and transitions in a process.
+
+**Advantages**
+- very clear for sequences
+- good for machines with many steps
+- easy to understand process flow
+- good for organizing large programs
+
+**Disadvantages**
+- usually not enough alone
+- often needs LD, FBD, or ST with it
+- not ideal for detailed calculations
+
+## 5) IL : Instruction List
+
+IL is a text language that looks a little like assembly language.
+
+**Advantages**
+- simple and direct in old systems
+- compact in small old programs
+
+**Disadvantages**
+- hard to read
+- hard to maintain
+- not beginner-friendly
+- mostly outdated today
+
+## Which language is the most used?
+
+The most used language in industry is usually **LD (Ladder Diagram)**.
+
+Why?
+- it is visual
+- it is easy for maintenance teams
+- it is close to electrical logic
+- many technicians already understand it
+
+However, **ST** is also very important today, especially for:
+- complex logic
+- calculations
+- data processing
+- advanced automation
+
+## Simple conclusion
+
+A PLC is an industrial computer used to automate machines.
+
+IEC 61131-3 defines the main PLC programming languages.
+
+For a beginner:
+- start with **LD**
+- understand **FBD**
+- learn **ST** for advanced logic
+- use **SFC** for sequence control
+- know that **IL** is mainly old technology 
+In practice, engineers often combine multiple IEC 61131-3 languages in the same project to build robust, readable, and efficient automation systems.
+  `,
+},
+
 ];
