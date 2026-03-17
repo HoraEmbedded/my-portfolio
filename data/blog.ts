@@ -21,7 +21,7 @@ export const blogPosts: BlogPost[] = [
     title: "How PID Control Works — A Simple Explanation",
     summary:
       "PID control is everywhere in industrial machines. Here is how I learned to understand it by building a line-following robot.",
-    date: "March 15, 2024",
+    date: "March 13, 2026",
     readTime: "5 min read",
     category: "Learning",
     tags: ["PID", "Control Systems", "Arduino", "Robotics"],
@@ -49,47 +49,13 @@ When I built my line-following robot, I used simple on/off control at first. The
 After adding PID to my robot, it followed the line smoothly around corners. No more shaking. This was my first real experience connecting control theory to a physical system.
     `,
   },
+  
   {
     id: 2,
-    title: "My First MQTT Project: Sending Sensor Data Over Wi-Fi",
-    summary:
-      "MQTT is the protocol that connects IoT devices to dashboards. Here is how I used it with ESP32 to monitor a server room remotely.",
-    date: "May 2, 2024",
-    readTime: "6 min read",
-    category: "Project",
-    tags: ["MQTT", "ESP32", "IoT", "Node-RED"],
-    content: `
-## What is MQTT?
-
-MQTT (Message Queuing Telemetry Transport) is a lightweight communication protocol designed for IoT devices. It works like a messaging system where devices publish data and other devices or servers subscribe to receive it.
-
-## The Problem I Was Solving
-
-A small server room had no temperature monitoring. When temperatures got too high, equipment started failing and nobody knew why. I wanted to build a simple, low-cost solution.
-
-## What I Built
-
-**Hardware:** ESP32 microcontroller + DHT22 temperature and humidity sensor.
-
-**Software:**
-- ESP32 reads sensor every 30 seconds
-- Sends data to MQTT broker (Mosquitto)
-- Node-RED receives data and shows a live dashboard
-- Alert triggered when temperature exceeds 28°C
-
-## What I Learned
-
-MQTT is incredibly efficient. The messages are tiny, so even a cheap device with slow Wi-Fi can send data reliably. Node-RED made it easy to create a dashboard without writing a lot of code.
-
-This project showed me the power of IIoT: simple hardware + smart software = a real solution to a real problem.
-    `,
-  },
-  {
-    id: 3,
     title: "Why I Want to Build Smart Factories",
     summary:
       "A personal reflection on what motivates me to study automation and why Industry 4.0 excites me every day.",
-    date: "January 10, 2025",
+    date: "March 15, 2026",
     readTime: "4 min read",
     category: "Reflection",
     tags: ["Industry 4.0", "Motivation", "Career", "Smart Factory"],
@@ -125,7 +91,7 @@ I am building toward this goal every day. This portfolio is part of that journey
   },
 
   {
-  id: 4,
+  id: 3,
   title: "PLC Programming Languages under IEC 61131-3",
   summary: "Overview of IEC 61131-3, the five PLC programming languages, their advantages and disadvantages, and the most widely used language in industry.",
   date: "March 17, 2026",
