@@ -4,47 +4,13 @@ const labExperiments = [
   {
     category: 'Sensor Experiments',
     items: [
-      {
-        name: 'DHT22 — Temperature & Humidity',
-        description: 'Calibrated readings over 72 hours. Compared with reference sensor. Documented drift.',
-        status: 'Done',
-        tools: ['Arduino', 'Python', 'Serial Monitor'],
-      },
-      {
-        name: 'HC-SR04 — Ultrasonic Distance',
-        description: 'Measured accuracy at different distances and angles. Built a simple range alert system.',
-        status: 'Done',
-        tools: ['Arduino', 'C++'],
-      },
-      {
-        name: 'MPU-6050 — IMU / Gyroscope',
-        description: 'Testing roll, pitch, and yaw measurements. Learning to filter noise from raw data.',
-        status: 'In Progress',
-        tools: ['ESP32', 'C++', 'I2C Protocol'],
-      },
+     
     ],
   },
   {
     category: 'Communication Protocols',
     items: [
-      {
-        name: 'Modbus RTU over RS485',
-        description: 'Built a Python reader for industrial Modbus devices. Tested with temperature transmitter.',
-        status: 'Done',
-        tools: ['Python', 'pymodbus', 'RS485'],
-      },
-      {
-        name: 'MQTT Broker Setup',
-        description: 'Installed Mosquitto broker on Raspberry Pi. Connected 3 ESP32 nodes simultaneously.',
-        status: 'Done',
-        tools: ['MQTT', 'Mosquitto', 'ESP32', 'Node-RED'],
-      },
-      {
-        name: 'I2C Multi-Device Bus',
-        description: 'Running OLED display + BME280 sensor on the same I2C bus. Learning address conflicts.',
-        status: 'In Progress',
-        tools: ['Arduino', 'I2C', 'OLED', 'BME280'],
-      },
+      
     ],
   },
   {
@@ -56,18 +22,8 @@ const labExperiments = [
         status: 'Done',
         tools: ['Bash', 'cron', 'Linux'],
       },
-      {
-        name: 'Python Serial Logger',
-        description: 'Script that reads data from COM port and logs it to CSV with timestamp.',
-        status: 'Done',
-        tools: ['Python', 'pyserial', 'CSV'],
-      },
-      {
-        name: 'Raspberry Pi Gateway',
-        description: 'Setting up Pi as an IIoT edge gateway: MQTT + Node-RED + InfluxDB + Grafana.',
-        status: 'In Progress',
-        tools: ['Raspberry Pi', 'Node-RED', 'InfluxDB', 'Grafana'],
-      },
+      
+      
     ],
   },
 ];
