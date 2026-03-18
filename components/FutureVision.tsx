@@ -51,7 +51,7 @@ export default function FutureVision() {
             Where I am going
           </h2>
           <p style={{ fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '560px' }}>
-            My engineering ambition is clear: become an AIoT Industrial Engineer who builds the intelligent infrastructure for the factories of the future.
+            My engineering ambition is : become an Automation & IIoT Engineer who builds the intelligent infrastructure for the factories of the future.
           </p>
         </div>
 
@@ -60,21 +60,21 @@ export default function FutureVision() {
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-            gap: '24px',
+            gap: '4px',
             marginBottom: '72px',
           }}
         >
           {visionPillars.map((pillar) => (
-            <div key={pillar.number} className="card" style={{ padding: '32px' }}>
+            <div key={pillar.number} className="card" style={{ padding: '12px' }}>
               {/* Number */}
               <div
                 style={{
                   fontFamily: "'Space Mono', monospace",
                   fontWeight: 800,
-                  fontSize: '48px',
+                  fontSize: '28px',
                   color: 'var(--border)',
                   lineHeight: 1,
-                  marginBottom: '20px',
+                  marginBottom: '10px',
                   letterSpacing: '-0.02em',
                 }}
               >
@@ -98,7 +98,7 @@ export default function FutureVision() {
                   fontSize: '14px',
                   color: 'var(--text-secondary)',
                   lineHeight: 1.7,
-                  marginBottom: '20px',
+                  marginBottom: '10px',
                 }}
               >
                 {pillar.description}
@@ -132,7 +132,7 @@ export default function FutureVision() {
             background: 'var(--card)',
             borderRadius: '16px',
             border: '1px solid var(--border)',
-            padding: '48px',
+            padding: '8px',
           }}
         >
           <h3
@@ -141,7 +141,7 @@ export default function FutureVision() {
               fontWeight: 700,
               fontSize: '22px',
               color: 'var(--text)',
-              marginBottom: '32px',
+              marginBottom: '12px',
             }}
           >
             My Engineering Roadmap
