@@ -80,13 +80,13 @@ export default function Blog() {
           <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
             Technical Blog
           </h2>
-          <p style={{ fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '520px' }}>
+          <p style={{ fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '560px' }}>
             Engineering notes, project breakdowns, and reflections on what I am learning. Written in plain language.
           </p>
         </div>
 
         {/* Blog grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '24px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '24px' }}>
           {blogPosts.map((post) => {
             const color = categoryColors[post.category];
             return (
@@ -99,7 +99,7 @@ export default function Blog() {
                 {/* Top accent */}
                 <div style={{ height: '3px', background: `linear-gradient(90deg, ${color}, transparent)` }} />
 
-                <div style={{ padding: '28px', flex: 1 }}>
+                <div style={{ padding: '20px', flex: 1 }}>
                   {/* Meta */}
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
                     <span style={{
