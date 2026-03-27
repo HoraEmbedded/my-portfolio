@@ -46,7 +46,7 @@ export default function FutureVision() {
           </p>
           <h2
             className="section-title"
-            style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px', maxWidth: '620px' }}
+            style={{ fontSize: 'clamp(30px, 4vw, 28px)', marginBottom: '16px', maxWidth: '620px' }}
           >
             Where I am going
           </h2>
