@@ -39,7 +39,7 @@ export default function Projects() {
           </p>
           <h2
             className="section-title"
-            style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}
+            style={{ fontSize: 'clamp(30px, 4vw, 28px)', marginBottom: '16px' }}
           >
             Projects & Solutions
           </h2>
