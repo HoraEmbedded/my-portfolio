@@ -77,7 +77,7 @@ export default function Blog() {
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>Engineering Journal</p>
-          <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
+          <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 28px)', marginBottom: '16px' }}>
             Technical Blog
           </h2>
           <p style={{ fontSize: '16px', color: 'var(--text-secondary)', maxWidth: '560px' }}>

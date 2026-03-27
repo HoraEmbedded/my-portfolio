@@ -36,7 +36,7 @@ export default function PersonalTouch() {
         {/* Header */}
         <div style={{ marginBottom: '64px' }}>
           <p className="section-label" style={{ marginBottom: '12px' }}>The Person Behind the Engineer</p>
-          <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 48px)', marginBottom: '16px' }}>
+          <h2 className="section-title" style={{ fontSize: 'clamp(30px, 4vw, 28px)', marginBottom: '16px' }}>
             Beyond the code
           </h2>
           <p style={{ fontSize: '14px', color: 'var(--text-secondary)', maxWidth: '540px' }}>
